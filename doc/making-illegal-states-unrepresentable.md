@@ -2,7 +2,7 @@
 
 В этой статье мы рассмотрим ключевое преимущество F# - возможность "сделать некорректные состояния невыразимыми" при помощи системы типов (фраза заимствована у [Yaron Minsky](https://blog.janestreet.com/effective-ml-revisited/)).
 
-Рассмотрим тип `Contact`. В результате [проведённого рефакторинга](https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/) он сильно упростился:
+Рассмотрим тип `Contact`. В результате [проведённого рефакторинга](https://fsharpforfunandprofit.com/posts/designing-with-types-single-case-dus/) он сильно упростился:
 
 ```fsharp
 type Contact = 
