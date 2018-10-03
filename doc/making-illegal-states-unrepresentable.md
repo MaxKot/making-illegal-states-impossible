@@ -128,7 +128,7 @@ let newPostalAddress =
 let newContact = updatePostalAddress contact newPostalAddress
 ```
 
-*ПРЕДУПРЕЖДЕНИЕ: В этом примере я использовал `option.Value`, чтобы получить содержимое option. Это допустимо, когда вы экспериментируете в интерактивной консоли, но это ужасное решение для рабочего кода! Надо всегда использовать [сопоставление шаблонов](https://docs.microsoft.com/ru-ru/dotnet/fsharp/language-reference/pattern-matching) и обрабатывать оба конструктора `option`.*
+*ПРЕДУПРЕЖДЕНИЕ: В этом примере я использовал `option.Value`, чтобы получить содержимое option. Это допустимо, когда вы экспериментируете в интерактивной консоли, но это ужасное решение для рабочего кода! Надо всегда использовать [сопоставление с образцом](https://docs.microsoft.com/ru-ru/dotnet/fsharp/language-reference/pattern-matching) и обрабатывать оба конструктора `option`.*
 
 # Зачем заморачиваться этими сложными типами?
 
